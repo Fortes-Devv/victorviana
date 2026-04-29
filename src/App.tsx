@@ -8,6 +8,7 @@ import Crenca from './components/Crenca'
 import Solucao from './components/Solucao'
 import ParaQuem from './components/ParaQuem'
 import Conteudo from './components/Conteudo'
+import Cursos from './components/Cursos'
 import CtaFinal from './components/CtaFinal'
 import Footer from './components/Footer'
 
@@ -36,6 +37,8 @@ function App() {
       <ParaQuem />
       <div className="section-divider" />
       <Conteudo />
+      <div className="section-divider" />
+      <Cursos />
       <div className="section-divider" />
       <CtaFinal />
       <Footer />
